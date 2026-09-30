@@ -1,7 +1,9 @@
 Basic Java Programming Project 1 Documentation
+##
 Zoo Project Documentation
-
-In this project there is a: 
+##
+In this project there is a:
+##
 A client application. 
 A server application that runs the client applications and can be read from many machines.
 And a database that has three tables, which are stored on the server. 
