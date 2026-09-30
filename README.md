@@ -11,9 +11,15 @@ The second GUI is an administrator GUI. The zoo admin is the only one who will u
 The server has a start button and a stop button. These are present on the IT administrator page. The start button starts the server, and the stop button shuts the server down separately. The admin is the only one in charge of switching the server on and off. Regular Expressions are used to check that valid information was entered. The server can take multiple client connections and only the server will request and send information to and from the database directly, by obtaining requests from the client. The product will be sent to the client for display to the user. 
 
 The database has three tables and Microsoft SQL Server was used to create this database. The first table is the Species table which has a speciesId as the primary key field and a speciesName. The second table has an animalId as the primary key field, animalName, description and lastly a speciesId as the Foreign Key field. The third table is the User table this has a userId as a primary key field, username and password. The user will be able to insert data into both tables but will only be able to delete from the Animal table, not the Species table.
+##
 Author: Shameemah Omar
+##
 How to run:
-Install Netbeans IDE 
+##
+Install Netbeans IDE
+##
 Version: NetBeans IDE 8.2
+##
 Install Microsoft JDBC Driver
+##
 Version: mysql-connector-java-8.0.27
